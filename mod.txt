@@ -2,20 +2,6 @@
     "name" : "GWG Death Sentence Vanilla Rebalance (GWGDSVR)",
     "description" : "Balls",
     "author" : "goatwithagun",
-    "version" : "1.0",
-	"blt_version" : 2,
-	"hooks" : [
-    {
-        "hook_id" : "lib/units/beings/player/playerdamage",
-        "script_path" : "hooks/playerdamage.lua"
-    },
-    { 
-	"hook_id" : "lib/tweak_data/groupaitweakdata",
-	"script_path" : "hooks/groupaitweakdata.lua" 
-    },
-    {
-	"hook_id": "lib/tweak_data/charactertweakdata",  
-	"script_path": "hooks/charactertweakdata.lua"
-    }
-    ]
+    "version" : "1.1",
+    "blt_version" : 2
 }
