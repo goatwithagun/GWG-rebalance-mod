@@ -1,3 +1,8 @@
+-- 22.5 is heavy damage and 6.75 is light swat dmg number to be multiplied by 10, 225 and 67.5
+-- will be for light 75 at point blank
+-- will be for heavy 100 at point blank
+-- thanks Offyerrocker for crackdown damage infos
+
 local old_PlayerDamage_damage_bullet = PlayerDamage.damage_bullet
 log("MxPlayerDamage")
 function PlayerDamage:damage_bullet(attack_data)
@@ -34,11 +39,11 @@ function PlayerDamage:heavy_swat_damage(distance)
     if distance <= 5 then
         new_damage = 100
     elseif distance <= 10 then
-        new_damage = 75
+        new_damage = 93
     elseif distance <= 20 then
-        new_damage = 70
+        new_damage = 85
     elseif distance <= 30 then
-        new_damage = 68
+        new_damage = 60
     elseif distance <= 60 then
         new_damage = 52
     else -- must be over 45 than
@@ -47,13 +52,12 @@ function PlayerDamage:heavy_swat_damage(distance)
     return new_damage / 10
 end
 
---zeal sniper
 function PlayerDamage:heavy_sniper_damage(distance)
     local new_damage = 0
     if distance <= 5 then
-        new_damage = 160
+        new_damage = 180
     elseif distance <= 10 then
-        new_damage = 100
+        new_damage = 110
     elseif distance <= 20 then
         new_damage = 80
     elseif distance <= 30 then
