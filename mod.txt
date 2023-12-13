@@ -3,5 +3,13 @@
     "description" : "Balls",
     "author" : "goatwithagun",
     "version" : "1.1",
-    "blt_version" : 2
+    "blt_version" : 2,
+    "updates" : [
+		{
+			"identifier" : "GWG_ds_rebalance",
+			"host" : {
+				"meta" : "https://github.com/HugoZink/PD2AutoUpdateExample/releases/download/refs%2Fheads%2Fmaster/meta.json"
+			}
+		}
+	]
 }
