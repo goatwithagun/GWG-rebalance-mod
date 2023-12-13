@@ -1,6 +1,6 @@
 [
     {
-        "ident" : "pd2_sample_autoupdate",
+        "ident" : "GWG_ds_rebalance",
         "hash" : "%HASH%",
         "patchnotes_url" : "https://example.com/other-patchnotes.html",
         "download_url" : "https://github.com/goatwithagun/GWG-rebalance-mod/releases/download/refs%2Fheads%2Fmaster/GWGrebalance.zip"
