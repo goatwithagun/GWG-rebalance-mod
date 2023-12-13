@@ -37,11 +37,11 @@ end
 function PlayerDamage:heavy_swat_damage(distance)
     local new_damage = 0
     if distance <= 5 then
-        new_damage = 100
+        new_damage = 110
     elseif distance <= 10 then
-        new_damage = 93
+        new_damage = 95
     elseif distance <= 20 then
-        new_damage = 85
+        new_damage = 80
     elseif distance <= 30 then
         new_damage = 60
     elseif distance <= 60 then
