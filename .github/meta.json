@@ -2,7 +2,7 @@
     {
         "ident" : "GWG_ds_rebalance",
         "hash" : "%HASH%",
-        "patchnotes_url" : "https://github.com/goatwithagun/GWG-rebalance-mod/wiki/Changelog",
+        "patchnotes_url" : "https://github.com/goatwithagun/GWG-rebalance-mod/wiki/Changelog#10d",
         "download_url" : "https://github.com/goatwithagun/GWG-rebalance-mod/releases/download/release/GWGrebalance.zip"
     }
 ]
