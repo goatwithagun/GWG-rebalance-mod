@@ -1,0 +1,15 @@
+{
+    "name" : "GWG Death Sentence Vanilla Rebalance (GWGDSVR)",
+    "description" : "Balls",
+    "author" : "goatwithagun",
+    "version" : "1.0c",
+    "blt_version" : 2,
+    "updates" : [
+		{
+			"identifier" : "GWG_ds_rebalance",
+			"host" : {
+				"meta" : "https://github.com/goatwithagun/GWG-rebalance-mod/releases/download/release/meta.json"
+			}
+		}
+	]
+}
