@@ -55,9 +55,9 @@ end
 function PlayerDamage:heavy_sniper_damage(distance)
     local new_damage = 0
     if distance <= 5 then
-        new_damage = 180
+        new_damage = 200
     elseif distance <= 10 then
-        new_damage = 110
+        new_damage = 160
     elseif distance <= 20 then
         new_damage = 80
     elseif distance <= 30 then
