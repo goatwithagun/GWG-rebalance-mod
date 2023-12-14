@@ -69,3 +69,4 @@ function PlayerDamage:heavy_sniper_damage(distance)
     end
     return new_damage / 10
 end
+
