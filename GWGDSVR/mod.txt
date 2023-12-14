@@ -2,7 +2,7 @@
     "name" : "GWG Death Sentence Vanilla Rebalance (GWGDSVR)",
     "description" : "Balls",
     "author" : "goatwithagun",
-    "version" : "1.0d",
+    "version" : "1.0e",
     "blt_version" : 2,
     "updates" : [
 		{
